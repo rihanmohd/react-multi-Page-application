@@ -1,10 +1,15 @@
 import React from 'react'
+import img from '../assets/images/img2.avif'
+import img1 from '../assets/images/style.webp'
+
 
 const Call = () => {
     return (
-        <div className="relative mt-80 w-[1440px] h-[570px] bg-[#757575] mx-auto">
+        <div className="relative mt-80 w-[1440px] h-[570px] opacity-90 mx-auto bg-cover bg-center"
+        style={{ backgroundImage: `url(${img1})` }}>
           {/* Overlapping Gray Box */}
-          <div className="absolute -mt-20 left-20 w-[427px] h-[300px] bg-[#C4C4C4]"></div>
+          <div className="absolute -mt-20 left-20 w-[427px] h-[300px] bg-cover bg-center opacity-90"
+           style={{ backgroundImage: `url(${img})` }}></div>
     
           {/* White Card */}
           <div className="absolute top-32 left-64 w-[427px] h-[221px] bg-white shadow-lg p-8">

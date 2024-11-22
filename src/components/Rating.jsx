@@ -1,4 +1,7 @@
 import React from 'react'
+import img from '../assets/images/co1.avif'
+
+
 
 const Rating = () => {
   return (
@@ -26,7 +29,8 @@ const Rating = () => {
     inventore veritatis et quasi architecto 
   beatae vitae dicta sunt explicabo.</p>
   <div className='flex'>
-  <div className=' w-[85px] h-[85px] bg-[#C4C4C4] rounded-full'></div>
+  <div className=' w-[85px] h-[85px] rounded-full bg-cover bg-center ' 
+  style={{ backgroundImage: `url(${img})` }}></div>
   <div><p className=' text-2xl font-extrabold mt-5 ml-5'>John De</p>
   <p className='ml-4 text-xl font-semibold text-[#6E6E6E]'>Art Director</p>
   </div>

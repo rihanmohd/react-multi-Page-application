@@ -1,19 +1,22 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
-import PortfolioNav from '../components/PortfolioNav'
+import FaqSection from '../components/FaqSection'
 import Footer from "../components/Footer"
 
 
-
-const PortfolioPage = () => {
+const FaqPage = () => {
   return (
    <div>
     <Navbar />
-    <PortfolioNav />
-    
-    <Footer />
+    <FaqSection />
+   <Footer />
+
+
+{/* <Footer /> */}
+
+
    </div>
   )
 }
 
-export default PortfolioPage
+export default FaqPage

@@ -6,11 +6,11 @@ import logo from '../assets/images/Logo Homco 1.png'
 const Navbar = () => {
   return (
     <>
-    <div className="w-[1440px] h-[123px] mx-auto py-8 pl-28 bg-[#959595] border-b border-[#FFFFFF40] ">
+    <div className="w-[1440px] h-[123px] mx-auto py-8 pl-28 bg-[#1A3E5C] border-b border-[#FFFFFF40] ">
 {/* logo & nav */}
 <div className="flex gap-20 ">
   <img src={logo}></img>
-  <nav className="mt-4">
+  <nav className="mt-4 text-[#FFFFFF]">
     <ul className="flex gap-20">
       <li className="text-lg text-[#FFFFFF]">Home</li>
       <li className="text-lg text-[#FFFFFF]">About Us </li>

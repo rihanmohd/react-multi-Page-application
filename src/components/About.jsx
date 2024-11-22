@@ -4,7 +4,8 @@ import SubHeader from './SubHeader'
 
 const About = () => {
   return (
-    <div>
+    <div >
+    
       
     <SubHeader 
       title="About Us" 

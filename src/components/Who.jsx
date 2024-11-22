@@ -1,10 +1,14 @@
 import React from 'react'
+import img from '../assets/images/img12.avif'
+
+
 
 const Who = () => {
   return (
     <>
      <section className='mt-20  w-[1340px] h-[725px] mx-auto grid grid-cols-2 gap-8'>
- <div className='bg-[#C4C4C4]'>
+ <div className='bg-[#C4C4C4] bg-cover bg-center'
+ style={{ backgroundImage: `url(${img})` }}>
 
  </div> 
   
